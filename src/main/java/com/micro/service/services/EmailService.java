@@ -1,6 +1,7 @@
 package com.micro.service.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
 import com.micro.service.dtos.EmailDto;
@@ -14,6 +15,9 @@ public class EmailService {
 	
 	@Autowired
 	EmailRepository emailRepository;
+	
+	@Autowired
+	JavaMailSender emailSender;
 
 	public void sendEmail(Email email) {
 		emailRepository.save(email);
