@@ -2,14 +2,18 @@ package com.micro.service.models;
 
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
 import java.time.LocalDateTime;
 import java.util.UUID;
 import com.micro.service.enums.StatusEmail;
 
-
+@Entity
+@Table(name = "TB_EMAIL")
 public class Email {
     private static final long serialVersionUID = 1L;
 
