@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import com.micro.service.models.Email;
 
-@Repository
+
 public interface EmailRepository extends JpaRepository<Email, UUID>{
 
 }
