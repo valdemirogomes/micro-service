@@ -8,9 +8,12 @@ Link da documentação para configurar o SMTP do Gmail: https://support.google.c
 
 Tecnologias utilizadas no desenvolvimento:  
   
-Java 17  
+JDK 17  
 Ecossistema Spring   
-Arquitetura REST  
+Maven  
+Arquitetura REST   
 Arquitetura de micro-serviço  
-PostgreSQL  
-Servidor SMTP do Gmail  
+PgAdmin (Postgres)  
+Servidor SMTP do Gmail    
+IDE (IntelliJ, STS, Eclipse, etc)  
+Postman  
