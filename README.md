@@ -4,7 +4,8 @@ de micro-serviço funciona utilizando o serviço de mensageria.
 Tendo como finalidade algo didático, o serviço de email utilizado   
 no desenvilvimento da api foi, o Servidor SMTP do Gmail.
 
-Link da documentação para configurar o SMTP do Gmail: https://support.google.com/accounts/answer/185833  
+Link da documentação para configurar o SMTP do Gmail:   
+https://support.google.com/accounts/answer/185833    
 
 Tecnologias utilizadas no desenvolvimento:  
   
